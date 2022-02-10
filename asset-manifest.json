@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/desafio-emonk/static/css/main.073c9b0a.css",
-    "main.js": "/desafio-emonk/static/js/main.07340cbf.js",
-    "static/js/787.ad74cef0.chunk.js": "/desafio-emonk/static/js/787.ad74cef0.chunk.js",
-    "static/media/logo.svg": "/desafio-emonk/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/desafio-emonk/static/css/main.464f9450.css",
+    "main.js": "/desafio-emonk/static/js/main.c7c128db.js",
     "index.html": "/desafio-emonk/index.html",
-    "main.073c9b0a.css.map": "/desafio-emonk/static/css/main.073c9b0a.css.map",
-    "main.07340cbf.js.map": "/desafio-emonk/static/js/main.07340cbf.js.map",
-    "787.ad74cef0.chunk.js.map": "/desafio-emonk/static/js/787.ad74cef0.chunk.js.map"
+    "main.464f9450.css.map": "/desafio-emonk/static/css/main.464f9450.css.map",
+    "main.c7c128db.js.map": "/desafio-emonk/static/js/main.c7c128db.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.07340cbf.js"
+    "static/css/main.464f9450.css",
+    "static/js/main.c7c128db.js"
   ]
 }
