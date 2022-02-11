@@ -14,32 +14,40 @@ const Producto = () => {
     }, [])
 
     return (
-        <div className='Producto'>
-            <div className='imgProducto'>
-                <img id='imgProducto' src="http://54.203.82.32:3000/api/productos/img/pd2-3-000002-001.jpg" alt="" />
+        <div className='container-fluid'>
+            <div className="row">
+                <div className='col-md-6 mt-2'>
+                    <div className='mx-auto d-block m-5 border border-dark'>
+                        <img className='img-fluid' src="http://54.203.82.32:3000/api/productos/img/pd2-3-000002-001.jpg" alt="" />
+                    </div>
+                </div>
+                <div className='col-md-6 mt-5'>
+                    <ul>
+                        {!datos ? 'Cargando...' :
+                            datos.producto.map((dato, index) => {
+                                return (
+                                    <ul>
+                                        <h2>{dato.nombre}</h2>
+                                            <p className='text-muted font-weight-light'>Sku: {dato.sku}</p>
+                                            <p>{dato.descripcion}</p>
+                                        <h3 className='mt-2 mb-2'>Detalles del Producto</h3>
+                                            <li >Material: {dato.material}</li>
+                                            <li>Medidas: {dato.medidas}</li>
+                                            <li>Peso: {dato.peso_producto}</li>
+                                            <li>Color: {dato.color_diseno_panton}</li>
+                                        <h3 className='mt-2 mb-2'>Detalles del Packing</h3>
+                                            <li>Packing: {dato.packing_venta}</li>
+                                            <li>Medidas: {dato.medidas_ctn}</li>
+                                            <li>Peso: {dato.peso_ctn}</li>
+                                    </ul>
+                                )
+                            })}
+                    </ul>
+                </div>
             </div>
-            <div className='detalleProducto'>
-                <ul>
-                    {!datos ? 'Cargando...' :
-                        datos.producto.map((dato, index) => {
-                            return (
-                                <ul>
-                                    <h1>{dato.nombre}</h1>
-                                    <h3>Sku: {dato.sku}</h3>
-                                    <h2>Detalles del Producto</h2>
-                                    <li>Material: {dato.material}</li>
-                                    <li>Medidas: {dato.medidas}</li>
-                                    <li>Peso: {dato.peso_producto}</li>
-                                    <li>Color: {dato.color_diseno_panton}</li>
-                                    <h2>Detalles del Packing</h2>
-                                    <li>Packing: {dato.packing_venta}</li>
-                                    <li>Medidas: {dato.medidas_ctn}</li>
-                                    <li>Peso: {dato.peso_ctn}</li>
-                                </ul>
-                            )
-                        })}
-                </ul>
-            </div>
+
+
+
         </div>
     )
 }
