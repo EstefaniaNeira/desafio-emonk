@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/desafio-emonk/static/css/main.2bd329ea.css",
-    "main.js": "/desafio-emonk/static/js/main.9190e68c.js",
-    "index.html": "/desafio-emonk/index.html",
-    "main.2bd329ea.css.map": "/desafio-emonk/static/css/main.2bd329ea.css.map",
-    "main.9190e68c.js.map": "/desafio-emonk/static/js/main.9190e68c.js.map"
+    "main.css": "./static/css/main.2bd329ea.css",
+    "main.js": "./static/js/main.9190e68c.js",
+    "index.html": "./index.html",
+    "main.2bd329ea.css.map": "./static/css/main.2bd329ea.css.map",
+    "main.9190e68c.js.map": "./static/js/main.9190e68c.js.map"
   },
   "entrypoints": [
     "static/css/main.2bd329ea.css",
