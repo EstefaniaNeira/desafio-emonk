@@ -1,6 +1,6 @@
 # **Instrucciones**
 ## Desafio Emonk
-### Sigue estas instrucciones para ejecutar el proyecto desde la terminal.
+### Sigue estas instrucciones para ejecutar el proyecto desde la terminal de manera local.
 
 1. Ingresa al [link](https://github.com/EstefaniaNeira/desafio-emonk.git)  del repositorio.
 
